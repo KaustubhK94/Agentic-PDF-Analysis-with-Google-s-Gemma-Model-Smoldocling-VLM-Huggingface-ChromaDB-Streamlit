@@ -193,24 +193,23 @@ sudo apt-get install poppler-utils
 Clone the repository and install dependencies:
 ```bash
 git clone https://github.com/KaustubhK94/Agentic-PDF-Analysis-Workflow-with-Gemma-Huggingface-ChromaDB-Streamlit.git
-cd my_streamlit_app
 pip install -r requirements.txt
  ```
 
 Streamlit Interface
 ```bash
-streamlit run my_streamlit_app/app_new.py
+streamlit run Agentic-PDF-Analysis-with-Google-s-Gemma-Model-Smoldocling-VLM-Huggingface-ChromaDB-Streamlit/app_new.py
  ```
 
 # Command Line Interface
 ## Process PDF and start interactive session
 ```bash
-python my_streamlit_app/agentic_rag_app.py --pdf path/to/document.pdf
+python Agentic-PDF-Analysis-with-Google-s-Gemma-Model-Smoldocling-VLM-Huggingface-ChromaDB-Streamlit/agentic_rag_app.py --pdf path/to/document.pdf
 ```
 
 ## Generate summary only
 ```bash
-python my_streamlit_app/agentic_workflow.py --pdf input.pdf --output_path summary.md
+python Agentic-PDF-Analysis-with-Google-s-Gemma-Model-Smoldocling-VLM-Huggingface-ChromaDB-Streamlit/agentic_workflow.py --pdf input.pdf --output_path summary.md
 ```
 
 # Jupyter Integration
@@ -222,7 +221,7 @@ main_jupyter(pdf_path="your_document.pdf")
 ## Project Structure
 
 ```
-my_streamlit_app/
+Agentic-PDF-Analysis-with-Google-s-Gemma-Model-Smoldocling-VLM-Huggingface-ChromaDB-Streamlit/
 ├── agentic_workflow.py       # Core PDF processing pipeline
 ├── agentic_rag_app.py        # RAG system implementation
 ├── app_new.py                # Streamlit interface
@@ -265,7 +264,6 @@ my_streamlit_app/
 ## Key configurations:
 
 ```
-PDF_PATH = "1712.05884v2.pdf"              # Default input PDF
 COMBINED_MD = "media/combined_extraction.md"  # Processed output
 CHROMA_DB_DIR = "media/chroma_db"           # Vector storage
 ```
