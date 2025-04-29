@@ -1,0 +1,33 @@
+## 6. REFERENCES
+
+- [1] P. Taylor, Text-to-Speech Synthesis , Cambridge University Press, New York, NY, USA, 1st edition, 2009.
+- [2] A. J. Hunt and A. W. Black, "Unit selection in a concatenate speech synthesis system using a large speech database," in Proc. ICASSP , 1996, pp. 373-376.
+- [3] A. W. Black and P. Taylor, "Automatically clustering simiar units for unit selection in speech synthesis," in Proc. Eu- rospreek , September 1997, pp. 601-604.
+- [4] K. Tokuda, T. Yoshimura, T. Masuko, T. Kobayashi, and T. Kitamura, "Speech parameter generation algorithms for HMMbased speech synthesis," in Proc. ICASSP , 2000, pp. 13151318.
+- [5] H. Zen, K. Tokuda, and A. W. Black, "Statistical parametric speech synthesis," Speech Communication , vol. 51, no. 11, pp. 1039-1064, 2009.
+- [6] H. Zen, A. Senior, and M. Schuster, "Statistical parametric speech synthesis using deep neural networks," in Proc. ICASSP , 2013, pp. 7962-7966.
+- [7] K. Tokuda, Y. Nankaku, T. Toda, H. Zen, J. Yamagishi, and K. Oura, "Speech synthesis based on hidden Markov models," Proc. IEEE , vol. 101, no. 5, pp. 1234-1252, 2013.
+- [8] A. van den Oord, S. Dileman, H. Zen, K. Simonyan, O. Vinyals, A. Graves, N. Kalchbrenner, A. W. Senior, and K. Kavukcuoglu, "WaveNet: A generative model for raw audio," CoRR , vol. abs/1609.03499, 2016.
+- [9] S. O. Arik, M. Chrzahowski, A. Coates, G. Diamas, A. Gibiansky, Y. Kang, X. Li, J. Miller, J. Raiman, S. Sengupta, and M. Shoeybi, "Deep voice: Real-time neural text-to-speech," CoRR , vol. abs/1702.07825, 2017.
+- [10] S. O. Arik, G. F. Diamas, A. Gibiansky, J. Miller, K. Peng, W. Ping, J. Raiman, and Y. Zhou, "Deep voice 2: Multi-speaker neural text-to-speech," CoRR , vol. abs/1705.08947, 2017.
+- [11] W. Ping, K. Peng, A. Gibiansky, S. O. Arik, A. Kannan, S. Narang, J. Raiman, and J. Miller, "Deep voice 3: 2000speaker neural text-to-speech," CoRR , vol. abs/1710.07654, 2017.
+- [12] Y. Wang, R. Skerry-Ryan, D. Stanton, Y. Wu, R. J. Weiss, N. Jaitly, Z. Yang, Y. Xiao, Z. Chen, S. Bengio, Q. Le, Y. Agiomyrgnianakis, R. Clark, and R. A. Saurous, "Tacotron: Towards end-to-end speech synthesis," in Proc. Interspeech , Aug. 2017, pp. 4006-4010.
+- [13] I. Sutskever, O. Vinyals, and Q. V. Le, "Sequence to sequence learning with neural networks," in Proc. NIPS , Z. Ghahramani, M. Welling, C. Cortes, N. D. Lawrence, and K. Q. Weinberger, Eds., 2014, pp. 3104-3112.
+- [14] D. W. Griffin and J. S. Lim, "Signal estimation from modified short-time Fourier transform," IEEE Transactions on Acoustics, Speech and Signal Processing , pp. 236-243, 1984.
+- [15] A. Tamamori, T. Hayashi, K. Kobayashi, K. Takeda, and T. Toda, "Speaker-dependent WaveNet vocoder," in Proc. Interspeech , 2017, pp. 1118-1122.
+- [16] J. Sotelo, S. Mehri, K. Kumar, J. F. Santos, K. Kastner, A. Courville, and Y. Bengio, "Char2Wav: End-to-end speech synthesis," in Proc. ICLR , 2017.
+- [17] S. Davis and P. Mermelstein, "Comparison of parametric representations for monosyllabic word recognition in continuously spoken sentences," IEEE Transactions on Acoustics, Speech and Signal Processing , vol. 28, no. 4, pp. 357 - 366, 1980.
+- [18] S. Ioffe and C. Szegedy, "Batch normalization: Accelerating deep network training by reducing internal covariate shift," in Proc. ICML , 2015, pp. 448-456.
+- [19] M. Schuster and K. K. Paliw, "Bidirectional recurrent neural networks," IEEE Transactions on Signal Processing , vol. 45, no. 11, pp. 2673-2681, Nov. 1997.
+- [20] S. Hochreiter and J. Schmidhuber, "Long short-term memory," Neural Computation , vol. 9, no. 8, pp. 1735-1780, Nov. 1997.
+- [21] J. K. Chorowski, D. Bahdanau, D. Serdyuk, K. Cho, and Y. Bengio, "Attention-based models for speech recognition," in Proc. NIPS , 2015, pp. 577-585.
+- [22] D. Bahdanau, K. Cho, and Y. Bengio, "Neural machine translation by jointly learning to align and translate," in Proc. ICLR , 2015.
+- [23] C. M. Bishop, "Mixture density networks," Tech. Rep., 1994.
+- [24] M. Schuster, On supervised learning from sequential data with applications for speech recognition, Ph.D. thesis, Nara Institute of Science and Technology, 1999.
+- [25] N. Srivastava, G. E. Hinton, A. Krizhevsky, I. Sutskever, and R. Salakhutdinov, "Dropout: a simple way to prevent neural networks from overfitting," Journal of Machine Learning Research , vol. 15, no. 1, pp. 1292-1958, 2014.
+- [26] D. Krueger, T. Maharaj, J. Kramár, M. Pezeshki, N. Ballas, N. R. Re, A. Goyal, T. Bengio, H. Larochelle, A. Courville, et al., "Zoneout: Regularizing RNNs by randomly preserving hidden activations," in Proc. ICLR , 2017.
+- [27] T. Salimans, A. Karpathy, X. Chen, and D. P. Kingma, "PixEInCNN++: Improving the PixelCNN with discretized logistic mixture likelihood and other modifications," in Proc. ICLR , 2017.
+- [28] A. van den Oord, Y. Li, I. Babuschin, K. Simonyan, O. Vinyals, K. Kavukcuoglu, G. van den Driessche, E. Lockhart, L. C. Cobo, F. Stimberg, N. Casagrande, D. Grewe, S. Noury, S. Dieleman, E. Elsen, N. Kalchbrenner, H. Zen, A. Graves, H. King, T. Walters, D. Belov, and D. Hassabis, "Parallel WaveNet: Fast HighFidelity Speech Synthesis," CoRR , vol. abs/1711.01433, Nov. 2017.
+- [29] D. P. Kingma and J. Ba, "Adam: A method for stochastic optimization," in Proc. ICLR , 2015.
+- [30] X. Gonzalo, S. Tazarri, C.-a. Chan, M. Becker, A. Gutkin, and H. Sillen, "Recent advances in Google real-time HMM-driven unit selection synthesizer," in Proc. Interspeech , 2016.
+- [31] H. Zen, Y. Agiomyrgnianakis, N. Egberts, F. Henderson, and P. Szczepaniak, "Fast, compact, and high quality LSTM-RNN based statistical parametric speech synthesizers for mobile devices," in Proc. Interspeech , 2016.
