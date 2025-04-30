@@ -232,6 +232,7 @@ Agentic-PDF-Analysis-with-Google-s-Gemma-Model-Smoldocling-VLM-Huggingface-Chrom
 │   ├── pdf_images/           # Converted page images, their respective extracted markdowns, and doctag files 
 │   ├── crops/                # Extracted image regions and their descriptions in JSON file
 │   └── chroma_db/            # Vector database storage
+├── media2
 └── requirements.txt          # Python dependencies
 ```
 
