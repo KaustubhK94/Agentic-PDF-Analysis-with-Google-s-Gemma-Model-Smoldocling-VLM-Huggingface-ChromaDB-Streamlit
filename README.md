@@ -79,28 +79,28 @@ This AI-powered system transforms scientific article analysis through a multi-st
                                        
                                       [END]
 
-
-   ┌──────────────────┐
-   │    Agent Tool   │
-   │ Selection Layer │
-   └───┬───────────┬─┘
-       │           │
-       │           │
-       ▼           ▼
-┌─────────────┐ ┌───────────────┐
-│ qa_tool     │ │ summarize_tool│
-│ (“qa_tool”) │ │ (“summarize”) │
-└─────────────┘ └───────────────┘
-       │                │
-       │                ▼
-       │        ┌───────────────────┐
-       │        │ summarize_document│
-       │        │ & prompt user re: │
-       │        │ PDF export option │
-       │        └───────────────────┘
-       │
-       ▼
-   [QA Flow Above]
+--------------------------------------------------------------------------------------
+                             ┌──────────────────┐
+                             │    Agent Tool   │
+                             │ Selection Layer │
+                             └───┬───────────┬─┘
+                                 │           │
+                                 │           │
+                                 ▼           ▼
+                          ┌─────────────┐ ┌───────────────┐
+                          │ qa_tool     │ │ summarize_tool│
+                          │ (“qa_tool”) │ │ (“summarize”) │
+                          └─────────────┘ └───────────────┘
+                                 │                │
+                                 │                ▼
+                                 │        ┌───────────────────┐
+                                 │        │ summarize_document│
+                                 │        │ & prompt user re: │
+                                 │        │ PDF export option │
+                                 │        └───────────────────┘
+                                 │
+                                 ▼
+                             [QA Flow Above]
 
 
 
