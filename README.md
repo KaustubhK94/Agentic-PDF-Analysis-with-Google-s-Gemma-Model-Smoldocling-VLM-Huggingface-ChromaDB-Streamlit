@@ -32,7 +32,7 @@ This AI-powered system transforms scientific article analysis through a multi-st
 - **Conversational Interface**: Context-aware Q&A with document memory
 
 ## Decision-Making Process 🤖
-##Here’s an ASCII‐art flowchart capturing the core decision logic of The agentic RAG system
+##Here’s an ASCII‐art flowchart capturing the core decision logic of the agentic RAG system
 ```
                            ┌───────────────┐
                            │   Start /     │
@@ -78,6 +78,30 @@ This AI-powered system transforms scientific article analysis through a multi-st
                                        
                                        
                                       [END]
+
+
+   ┌──────────────────┐
+   │    Agent Tool   │
+   │ Selection Layer │
+   └───┬───────────┬─┘
+       │           │
+       │           │
+       ▼           ▼
+┌─────────────┐ ┌───────────────┐
+│ qa_tool     │ │ summarize_tool│
+│ (“qa_tool”) │ │ (“summarize”) │
+└─────────────┘ └───────────────┘
+       │                │
+       │                ▼
+       │        ┌───────────────────┐
+       │        │ summarize_document│
+       │        │ & prompt user re: │
+       │        │ PDF export option │
+       │        └───────────────────┘
+       │
+       ▼
+   [QA Flow Above]
+
 
 
 ```
